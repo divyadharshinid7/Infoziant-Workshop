@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/Modelsim/Projects/4bit FA using Dff
+vfa_using_dff
+Z1 !s110 1793609775
+!i10b 1
+!s100 XP8lGH?7_fk9m@MN=noRV1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ID0Em5M9R[^5RY2`^ZAPOf2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1793603772
+Z4 8fa_using_dff.v
+Z5 Ffa_using_dff.v
+!i122 4
+Z6 L0 1 23
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1793609775.000000
+Z9 !s107 fa_using_dff.v|fa_using_dff_tb.v|
+Z10 !s90 -reportprogress|300|fa_using_dff_tb.v|fa_using_dff.v|
+!i113 1
+Z11 tCvgOpt 0
+vfa_using_dff_tb
+R1
+!i10b 1
+!s100 8<4V?j:;SK<CcjJK2P86U1
+R2
+I^X[M3OIKL<eCD2j7E[b_K0
+R3
+R0
+w1793601520
+Z12 8fa_using_dff_tb.v
+Z13 Ffa_using_dff_tb.v
+!i122 4
+Z14 L0 3 57
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vfull_adder_4bit_dff
+Z15 !s110 1793601432
+!i10b 1
+!s100 WDV];aSgA>KfT3jF<<F1Q0
+R2
+I`4k1^2WSKWX0G0o3oj?D<0
+R3
+R0
+w1793601152
+R4
+R5
+!i122 0
+R6
+R7
+r1
+!s85 0
+31
+Z16 !s108 1793601431.000000
+R9
+R10
+!i113 1
+R11
+vtb_full_adder_4bit_dff
+R15
+!i10b 1
+!s100 <gFI4>:JA<5]YD_=U]kNj2
+R2
+IGT@BHUIJS[mnST:SZS59A1
+R3
+R0
+w1793601148
+R12
+R13
+!i122 0
+R14
+R7
+r1
+!s85 0
+31
+R16
+R9
+R10
+!i113 1
+R11

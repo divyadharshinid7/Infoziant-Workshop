@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/Modelsim/Projects/8bit register
+vregister
+Z1 !s110 1793613333
+!i10b 1
+!s100 JNMfbhf6Y?Q>gKH^K5a:]3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`0:[c=T91>WJ00]P=Q[U]0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1793612977
+8register.v
+Fregister.v
+!i122 3
+L0 1 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1793613333.000000
+!s107 register.v|register_tb.v|
+Z6 !s90 -reportprogress|300|register_tb.v|register.v|
+!i113 1
+Z7 tCvgOpt 0
+vregister_8bit_tb
+!s110 1793612831
+!i10b 1
+!s100 _PXgag`8>[^=kk=lc]d:[2
+R2
+IfP80C68c2XkFgmCOjhgTm1
+R3
+R0
+w1793612699
+8register_8bit_tb.v
+Fregister_8bit_tb.v
+!i122 1
+Z8 L0 3 49
+R4
+r1
+!s85 0
+31
+!s108 1793612831.000000
+!s107 register_8bit.v|register_8bit_tb.v|
+!s90 -reportprogress|300|register_8bit_tb.v|register_8bit.v|
+!i113 1
+R7
+vregister_tb
+R1
+!i10b 1
+!s100 gMzPUXBFDj6aiU`InV6dU3
+R2
+I^I>zYicEDcLIN`MR8=T@P1
+R3
+R0
+w1793612980
+8register_tb.v
+Fregister_tb.v
+!i122 3
+R8
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 register.v|register_tb.v|
+R6
+!i113 1
+R7

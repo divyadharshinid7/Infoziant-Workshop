@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/Modelsim/Projects/D_flip_flop
+vd_flip_flop
+Z1 !s110 1793595366
+!i10b 1
+!s100 2zg1abQm8jk`^aT2fZHJ;2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYNokn2MQd;F=f005P=`Tc3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1793595248
+8d_flip_flop.v
+Fd_flip_flop.v
+!i122 0
+L0 2 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1793595366.000000
+!s107 d_flip_flop.v|d_flip_flop_tb.v|
+Z6 !s90 -reportprogress|300|d_flip_flop_tb.v|d_flip_flop.v|
+!i113 1
+Z7 tCvgOpt 0
+vd_flip_flop_tb
+R1
+!i10b 1
+!s100 DEHoJhbQJQN4P^jbFl=HE3
+R2
+I:XB[>[cFocU:zMdae7H8e2
+R3
+R0
+w1793595245
+8d_flip_flop_tb.v
+Fd_flip_flop_tb.v
+!i122 0
+L0 3 54
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 d_flip_flop.v|d_flip_flop_tb.v|
+R6
+!i113 1
+R7
