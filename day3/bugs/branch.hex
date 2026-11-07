@@ -1,0 +1,3 @@
+00000463 // beq x0,x0,target
+00700093 // addi x1,x0,7
+00000073 // target: ecall

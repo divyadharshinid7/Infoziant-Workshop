@@ -1,0 +1,35 @@
+123450b7 // lui x1, 0x12345
+ff800113 // addi x2, x0, -8
+00f17193 // andi x3, x2, 15
+01006213 // ori x4, x0, 16
+00324293 // xori x5, x4, 3
+00012313 // slti x6, x2, 0
+00221393 // slli x7, x4, 2
+4013d413 // srli x8, x7, 1
+40115b13 // srai x22, x2, 1
+40615bb3 // sra x23, x2, x6
+008384b3 // add x9, x7, x8
+40848533 // sub x10, x9, x8
+008275b3 // and x11, x4, x8
+00826633 // or x12, x4, x8
+0043c6b3 // xor x13, x7, x4
+00012733 // slt x14, x2, x0
+000217b3 // sll x15, x4, x0
+0003d833 // srl x16, x7, x0
+00702023 // sw x7, 0(x0)
+00000463 // beq x0, x0, branch_ok
+06300a93 // addi x21, x0, 99
+00011463 // bne x2, x0, not_equal
+06200a93 // addi x21, x0, 98
+00205463 // bge x0, x2, signed_ok
+06100a93 // addi x21, x0, 97
+00014463 // blt x2, x0, jal_start
+06000a93 // addi x21, x0, 96
+008008ef // jal x17, jal_target
+05f00a93 // addi x21, x0, 95
+00100913 // addi x18, x0, 1
+08800993 // addi x19, x0, 136
+00098a67 // jalr x20, 0(x19)
+05e00a93 // addi x21, x0, 94
+05d00a93 // addi x21, x0, 93
+00000073 // ecall
