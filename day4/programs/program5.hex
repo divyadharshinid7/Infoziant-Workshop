@@ -1,0 +1,9 @@
+03000093 // addi x1, x0, 48
+01200113 // addi x2, x0, 18
+00208c63 // beq x1, x2, done
+0020c663 // blt x1, x2, subtract_a
+402080b3 // sub x1, x1, x2
+ff5ff06f // jal x0, loop
+40110133 // sub x2, x2, x1
+fedff06f // jal x0, loop
+00000073 // ecall

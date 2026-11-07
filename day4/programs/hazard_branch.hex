@@ -1,0 +1,4 @@
+00000463 // beq x0,x0,target
+00700293 // wrong path: addi x5,x0,7
+00100313 // target: addi x6,x0,1
+00000073 // ecall
