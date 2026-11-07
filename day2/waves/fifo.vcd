@@ -1,0 +1,662 @@
+$date
+	Sat Nov 07 15:06:14 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module fifo_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var reg 1 # write_enable $end
+$var reg 1 $ read_enable $end
+$var reg 8 % data_in [7:0] $end
+$var wire 1 & data_out [7] $end
+$var wire 1 ' data_out [6] $end
+$var wire 1 ( data_out [5] $end
+$var wire 1 ) data_out [4] $end
+$var wire 1 * data_out [3] $end
+$var wire 1 + data_out [2] $end
+$var wire 1 , data_out [1] $end
+$var wire 1 - data_out [0] $end
+$var wire 1 . full $end
+$var wire 1 / empty $end
+$var wire 1 0 count [4] $end
+$var wire 1 1 count [3] $end
+$var wire 1 2 count [2] $end
+$var wire 1 3 count [1] $end
+$var wire 1 4 count [0] $end
+$var integer 32 5 i $end
+$var integer 32 6 errors $end
+
+$scope task tick $end
+$upscope $end
+
+$scope module dut $end
+$var parameter 32 7 DATA_WIDTH $end
+$var parameter 32 8 DEPTH $end
+$var parameter 32 9 ADDR_WIDTH $end
+$var wire 1 : clk $end
+$var wire 1 ; reset $end
+$var wire 1 < write_enable $end
+$var wire 1 = read_enable $end
+$var wire 1 > data_in [7] $end
+$var wire 1 ? data_in [6] $end
+$var wire 1 @ data_in [5] $end
+$var wire 1 A data_in [4] $end
+$var wire 1 B data_in [3] $end
+$var wire 1 C data_in [2] $end
+$var wire 1 D data_in [1] $end
+$var wire 1 E data_in [0] $end
+$var reg 8 F data_out [7:0] $end
+$var wire 1 . full $end
+$var wire 1 / empty $end
+$var reg 5 G count [4:0] $end
+$var reg 4 H write_pointer [3:0] $end
+$var reg 4 I read_pointer [3:0] $end
+$var wire 1 J read_accept $end
+$var wire 1 K write_accept $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+b0 %
+bx F
+bx G
+bx H
+bx I
+b1000 7
+b10000 8
+b100 9
+bx 5
+b0 6
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x.
+x/
+x4
+x3
+x2
+x1
+x0
+0J
+0K
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+1;
+0:
+$end
+#5000
+1!
+1:
+b0 H
+b0 I
+b0 G
+b0 F
+1/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+04
+03
+02
+01
+00
+#6000
+0"
+b0 5
+1#
+0;
+1<
+1K
+#10000
+0!
+0:
+#15000
+1!
+1:
+b1 H
+b1 G
+0/
+14
+#16000
+b1 5
+b1 %
+1E
+#20000
+0!
+0:
+#25000
+1!
+1:
+b10 H
+b10 G
+04
+13
+#26000
+b10 5
+b10 %
+0E
+1D
+#30000
+0!
+0:
+#35000
+1!
+1:
+b11 H
+b11 G
+14
+#36000
+b11 5
+b11 %
+1E
+#40000
+0!
+0:
+#45000
+1!
+1:
+b100 H
+b100 G
+04
+03
+12
+#46000
+b100 5
+b100 %
+0E
+0D
+1C
+#50000
+0!
+0:
+#55000
+1!
+1:
+b101 H
+b101 G
+14
+#56000
+b101 5
+b101 %
+1E
+#60000
+0!
+0:
+#65000
+1!
+1:
+b110 H
+b110 G
+04
+13
+#66000
+b110 5
+b110 %
+0E
+1D
+#70000
+0!
+0:
+#75000
+1!
+1:
+b111 H
+b111 G
+14
+#76000
+b111 5
+b111 %
+1E
+#80000
+0!
+0:
+#85000
+1!
+1:
+b1000 H
+b1000 G
+04
+03
+02
+11
+#86000
+b1000 5
+b1000 %
+0E
+0D
+0C
+1B
+#90000
+0!
+0:
+#95000
+1!
+1:
+b1001 H
+b1001 G
+14
+#96000
+b1001 5
+b1001 %
+1E
+#100000
+0!
+0:
+#105000
+1!
+1:
+b1010 H
+b1010 G
+04
+13
+#106000
+b1010 5
+b1010 %
+0E
+1D
+#110000
+0!
+0:
+#115000
+1!
+1:
+b1011 H
+b1011 G
+14
+#116000
+b1011 5
+b1011 %
+1E
+#120000
+0!
+0:
+#125000
+1!
+1:
+b1100 H
+b1100 G
+04
+03
+12
+#126000
+b1100 5
+b1100 %
+0E
+0D
+1C
+#130000
+0!
+0:
+#135000
+1!
+1:
+b1101 H
+b1101 G
+14
+#136000
+b1101 5
+b1101 %
+1E
+#140000
+0!
+0:
+#145000
+1!
+1:
+b1110 H
+b1110 G
+04
+13
+#146000
+b1110 5
+b1110 %
+0E
+1D
+#150000
+0!
+0:
+#155000
+1!
+1:
+b1111 H
+b1111 G
+14
+#156000
+b1111 5
+b1111 %
+1E
+#160000
+0!
+0:
+#165000
+1!
+1:
+b0 H
+b10000 G
+1.
+04
+03
+02
+01
+10
+0K
+#166000
+b10000 5
+0#
+b11111111 %
+1#
+1A
+1@
+1?
+1>
+#170000
+0!
+0:
+#175000
+1!
+1:
+#176000
+0#
+1$
+0<
+1=
+1J
+#180000
+0!
+0:
+#185000
+1!
+1:
+b1 I
+b1111 G
+0.
+14
+13
+12
+11
+00
+#186000
+1#
+b11101110 %
+1<
+0E
+0A
+1K
+#190000
+0!
+0:
+#195000
+1!
+1:
+b1 H
+b1 F
+b10 I
+1-
+#196000
+0#
+0$
+1$
+b10 5
+0<
+0K
+#200000
+0!
+0:
+#205000
+1!
+1:
+b10 F
+b11 I
+b1110 G
+04
+0-
+1,
+#206000
+b11 5
+#210000
+0!
+0:
+#215000
+1!
+1:
+b11 F
+b100 I
+b1101 G
+14
+03
+1-
+#216000
+b100 5
+#220000
+0!
+0:
+#225000
+1!
+1:
+b100 F
+b101 I
+b1100 G
+04
+0-
+0,
+1+
+#226000
+b101 5
+#230000
+0!
+0:
+#235000
+1!
+1:
+b101 F
+b110 I
+b1011 G
+14
+13
+02
+1-
+#236000
+b110 5
+#240000
+0!
+0:
+#245000
+1!
+1:
+b110 F
+b111 I
+b1010 G
+04
+0-
+1,
+#246000
+b111 5
+#250000
+0!
+0:
+#255000
+1!
+1:
+b111 F
+b1000 I
+b1001 G
+14
+03
+1-
+#256000
+b1000 5
+#260000
+0!
+0:
+#265000
+1!
+1:
+b1000 F
+b1001 I
+b1000 G
+04
+0-
+0,
+0+
+1*
+#266000
+b1001 5
+#270000
+0!
+0:
+#275000
+1!
+1:
+b1001 F
+b1010 I
+b111 G
+14
+13
+12
+01
+1-
+#276000
+b1010 5
+#280000
+0!
+0:
+#285000
+1!
+1:
+b1010 F
+b1011 I
+b110 G
+04
+0-
+1,
+#286000
+b1011 5
+#290000
+0!
+0:
+#295000
+1!
+1:
+b1011 F
+b1100 I
+b101 G
+14
+03
+1-
+#296000
+b1100 5
+#300000
+0!
+0:
+#305000
+1!
+1:
+b1100 F
+b1101 I
+b100 G
+04
+0-
+0,
+1+
+#306000
+b1101 5
+#310000
+0!
+0:
+#315000
+1!
+1:
+b1101 F
+b1110 I
+b11 G
+14
+13
+02
+1-
+#316000
+b1110 5
+#320000
+0!
+0:
+#325000
+1!
+1:
+b1110 F
+b1111 I
+b10 G
+04
+0-
+1,
+#326000
+b1111 5
+#330000
+0!
+0:
+#335000
+1!
+1:
+b1111 F
+b0 I
+b1 G
+14
+03
+1-
+#336000
+b10000 5
+#340000
+0!
+0:
+#345000
+1!
+1:
+b11101110 F
+b1 I
+b0 G
+1/
+04
+0-
+1(
+1'
+1&
+0J
+#346000
+0$
+1$
+#350000
+0!
+0:
+#355000
+1!
+1:
+#356000
+0$

@@ -1,0 +1,309 @@
+$date
+	Sat Nov 07 15:06:18 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module traffic_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var reg 1 # pedestrian_request $end
+$var wire 1 $ car_light [2] $end
+$var wire 1 % car_light [1] $end
+$var wire 1 & car_light [0] $end
+$var wire 1 ' walk $end
+$var integer 32 ( errors $end
+$var integer 32 ) i $end
+$var integer 32 * walk_entries $end
+$var reg 1 + previous_walk $end
+
+$scope task tick $end
+$upscope $end
+
+$scope module dut $end
+$var parameter 32 , RED_CYCLES $end
+$var parameter 32 - GREEN_CYCLES $end
+$var parameter 32 . YELLOW_CYCLES $end
+$var parameter 32 / WALK_CYCLES $end
+$var parameter 32 0 RED $end
+$var parameter 32 1 GREEN $end
+$var parameter 32 2 YELLOW $end
+$var parameter 32 3 WALK $end
+$var parameter 3 4 RED_LIGHT $end
+$var parameter 3 5 YELLOW_LIGHT $end
+$var parameter 3 6 GREEN_LIGHT $end
+$var wire 1 7 clk $end
+$var wire 1 8 reset $end
+$var wire 1 9 pedestrian_request $end
+$var reg 3 : car_light [2:0] $end
+$var reg 1 ; walk $end
+$var reg 2 < state [1:0] $end
+$var reg 16 = timer [15:0] $end
+$var reg 1 > pedestrian_pending $end
+$var reg 16 ? duration [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0+
+bx :
+x;
+bx <
+bx =
+x>
+bx ?
+b10 ,
+b11 -
+b10 .
+b10 /
+b0 0
+b1 1
+b10 2
+b11 3
+b100 4
+b10 5
+b1 6
+b0 (
+bx )
+b0 *
+x&
+x%
+x$
+x'
+09
+18
+07
+$end
+#5000
+1!
+17
+x+
+b0 <
+b0 =
+0>
+b10 ?
+0;
+b100 :
+0'
+0&
+0%
+1$
+#6000
+0"
+1#
+08
+19
+#10000
+0!
+07
+#15000
+1!
+17
+0+
+1>
+b1 =
+#16000
+0#
+b0 )
+09
+#20000
+0!
+07
+#25000
+1!
+17
+b0 =
+b1 <
+b11 ?
+b1 :
+1&
+0$
+#26000
+b1 )
+#30000
+0!
+07
+#35000
+1!
+17
+b1 =
+#36000
+b10 )
+#40000
+0!
+07
+#45000
+1!
+17
+b10 =
+#46000
+b11 )
+#50000
+0!
+07
+#55000
+1!
+17
+b0 =
+b10 <
+b10 ?
+b10 :
+0&
+1%
+#56000
+b100 )
+#60000
+0!
+07
+#65000
+1!
+17
+b1 =
+#66000
+b101 )
+#70000
+0!
+07
+#75000
+1!
+17
+b0 =
+b11 <
+0>
+1;
+b100 :
+1'
+0%
+1$
+#76000
+b1111 )
+b10000 )
+1#
+19
+#80000
+0!
+07
+#85000
+1!
+17
+b1 *
+1+
+b1 =
+#86000
+0#
+09
+#90000
+0!
+07
+#95000
+1!
+17
+b0 =
+b0 <
+0;
+0'
+#100000
+0!
+07
+#105000
+1!
+17
+0+
+b1 =
+#110000
+0!
+07
+#115000
+1!
+17
+b0 =
+b1 <
+b11 ?
+b1 :
+1&
+0$
+#120000
+0!
+07
+#125000
+1!
+17
+b1 =
+#130000
+0!
+07
+#135000
+1!
+17
+b10 =
+#140000
+0!
+07
+#145000
+1!
+17
+b0 =
+b10 <
+b10 ?
+b10 :
+0&
+1%
+#150000
+0!
+07
+#155000
+1!
+17
+b1 =
+#160000
+0!
+07
+#165000
+1!
+17
+b0 =
+b0 <
+b100 :
+0%
+1$
+#170000
+0!
+07
+#175000
+1!
+17
+b1 =
+#180000
+0!
+07
+#185000
+1!
+17
+b0 =
+b1 <
+b11 ?
+b1 :
+1&
+0$
+#190000
+0!
+07
+#195000
+1!
+17
+b1 =
+#200000
+0!
+07
+#205000
+1!
+17
+b10 =

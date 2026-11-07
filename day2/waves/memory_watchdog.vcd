@@ -1,0 +1,395 @@
+$date
+	Sat Nov 07 15:06:33 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module memory_watchdog_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " write_enable $end
+$var reg 1 # kick $end
+$var reg 1 $ enable $end
+$var reg 1 % reset $end
+$var reg 4 & address [3:0] $end
+$var reg 8 ' data_in [7:0] $end
+$var reg 16 ( timeout_value [15:0] $end
+$var wire 1 ) ram_data [7] $end
+$var wire 1 * ram_data [6] $end
+$var wire 1 + ram_data [5] $end
+$var wire 1 , ram_data [4] $end
+$var wire 1 - ram_data [3] $end
+$var wire 1 . ram_data [2] $end
+$var wire 1 / ram_data [1] $end
+$var wire 1 0 ram_data [0] $end
+$var wire 1 1 rom_data [7] $end
+$var wire 1 2 rom_data [6] $end
+$var wire 1 3 rom_data [5] $end
+$var wire 1 4 rom_data [4] $end
+$var wire 1 5 rom_data [3] $end
+$var wire 1 6 rom_data [2] $end
+$var wire 1 7 rom_data [1] $end
+$var wire 1 8 rom_data [0] $end
+$var wire 1 9 reset_pulse $end
+$var wire 1 : count [15] $end
+$var wire 1 ; count [14] $end
+$var wire 1 < count [13] $end
+$var wire 1 = count [12] $end
+$var wire 1 > count [11] $end
+$var wire 1 ? count [10] $end
+$var wire 1 @ count [9] $end
+$var wire 1 A count [8] $end
+$var wire 1 B count [7] $end
+$var wire 1 C count [6] $end
+$var wire 1 D count [5] $end
+$var wire 1 E count [4] $end
+$var wire 1 F count [3] $end
+$var wire 1 G count [2] $end
+$var wire 1 H count [1] $end
+$var wire 1 I count [0] $end
+$var integer 32 J errors $end
+
+$scope task tick $end
+$upscope $end
+
+$scope module ram $end
+$var wire 1 K clk $end
+$var wire 1 L write_enable $end
+$var wire 1 M address [3] $end
+$var wire 1 N address [2] $end
+$var wire 1 O address [1] $end
+$var wire 1 P address [0] $end
+$var wire 1 Q data_in [7] $end
+$var wire 1 R data_in [6] $end
+$var wire 1 S data_in [5] $end
+$var wire 1 T data_in [4] $end
+$var wire 1 U data_in [3] $end
+$var wire 1 V data_in [2] $end
+$var wire 1 W data_in [1] $end
+$var wire 1 X data_in [0] $end
+$var reg 8 Y data_out [7:0] $end
+$upscope $end
+
+$scope module rom $end
+$var parameter 128 Z INIT_FILE $end
+$var wire 1 [ clk $end
+$var wire 1 \ address [3] $end
+$var wire 1 ] address [2] $end
+$var wire 1 ^ address [1] $end
+$var wire 1 _ address [0] $end
+$var reg 8 ` data_out [7:0] $end
+$upscope $end
+
+$scope module wd $end
+$var parameter 32 a WIDTH $end
+$var wire 1 b clk $end
+$var wire 1 c reset $end
+$var wire 1 d kick $end
+$var wire 1 e enable $end
+$var wire 1 f timeout_value [15] $end
+$var wire 1 g timeout_value [14] $end
+$var wire 1 h timeout_value [13] $end
+$var wire 1 i timeout_value [12] $end
+$var wire 1 j timeout_value [11] $end
+$var wire 1 k timeout_value [10] $end
+$var wire 1 l timeout_value [9] $end
+$var wire 1 m timeout_value [8] $end
+$var wire 1 n timeout_value [7] $end
+$var wire 1 o timeout_value [6] $end
+$var wire 1 p timeout_value [5] $end
+$var wire 1 q timeout_value [4] $end
+$var wire 1 r timeout_value [3] $end
+$var wire 1 s timeout_value [2] $end
+$var wire 1 t timeout_value [1] $end
+$var wire 1 u timeout_value [0] $end
+$var reg 1 v reset_pulse $end
+$var reg 16 w count [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+b11 &
+b0 '
+b0 (
+bx Y
+bx `
+xv
+bx w
+b10000 a
+b1100100011000010111100100110010001011110111001101110010011000110010111101110010011011110110110100101110011010000110010101111000 Z
+b0 J
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x9
+xI
+xH
+xG
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+1_
+1^
+0]
+0\
+0[
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+1P
+1O
+0N
+0M
+0L
+0K
+$end
+#5000
+1!
+1K
+1[
+1b
+0v
+b0 w
+b110011 `
+09
+18
+17
+06
+05
+14
+13
+02
+01
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+#6000
+1"
+b10100101 '
+1L
+1X
+1V
+1S
+1Q
+#10000
+0!
+0K
+0[
+0b
+#15000
+1!
+1K
+1[
+1b
+#16000
+0"
+0L
+#20000
+0!
+0K
+0[
+0b
+#25000
+1!
+1K
+1[
+1b
+b10100101 Y
+10
+0/
+1.
+0-
+0,
+1+
+0*
+1)
+#26000
+1%
+b100 (
+1c
+1s
+#30000
+0!
+0K
+0[
+0b
+#35000
+1!
+1K
+1[
+1b
+b100 w
+1G
+#36000
+0%
+1$
+0c
+1e
+#40000
+0!
+0K
+0[
+0b
+#45000
+1!
+1K
+1[
+1b
+b11 w
+1I
+1H
+0G
+#50000
+0!
+0K
+0[
+0b
+#55000
+1!
+1K
+1[
+1b
+b10 w
+0I
+#56000
+1#
+1d
+#60000
+0!
+0K
+0[
+0b
+#65000
+1!
+1K
+1[
+1b
+b100 w
+0H
+1G
+#66000
+0#
+0d
+#70000
+0!
+0K
+0[
+0b
+#75000
+1!
+1K
+1[
+1b
+b11 w
+1I
+1H
+0G
+#80000
+0!
+0K
+0[
+0b
+#85000
+1!
+1K
+1[
+1b
+b10 w
+0I
+#90000
+0!
+0K
+0[
+0b
+#95000
+1!
+1K
+1[
+1b
+b1 w
+1I
+0H
+#100000
+0!
+0K
+0[
+0b
+#105000
+1!
+1K
+1[
+1b
+b0 w
+1v
+0I
+19
